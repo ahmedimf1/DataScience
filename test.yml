@@ -16,5 +16,5 @@ jobs:
       - uses: datapane/build-action@v2
         with:
           script: "StockReport.py"
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.dpToken }}
           requirements: "${{ env.requirements}}"
