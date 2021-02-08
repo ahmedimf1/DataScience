@@ -3,7 +3,7 @@ env:
 on:
   schedule:
     # runs at 23:00 JST every day
-    - cron:  '0 14 * * *'
+    - cron:  '15 14 * * *'
 jobs:
   build_report:
     runs-on: ubuntu-latest
