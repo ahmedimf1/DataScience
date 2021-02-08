@@ -3,11 +3,11 @@ env:
 on:
   schedule:
     # runs at 23:00 JST every day
-    - cron:  '15 14 * * *'
+    - cron:  '00 14 * * *'
 jobs:
   build_report:
     runs-on: ubuntu-latest
-    name: Run Datapane stock report every day at 4 pm
+    name: Run Datapane stock report every day at 11 pm
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
