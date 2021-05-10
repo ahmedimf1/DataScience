@@ -1,5 +1,5 @@
 env:
-  requirements: '["pandas-datareader==0.9.0"]'
+  requirements: '["pandas-datareader==0.9.0", "plotly"]'
 on:
   schedule:
     # runs at 23:00 JST every day
